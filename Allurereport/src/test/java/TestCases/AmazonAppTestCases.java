@@ -3,7 +3,6 @@ package TestCases;
 import org.testng.Assert;
 import org.testng.SkipException;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import Helper_Browser.BrowserFactory;
 import Pages.AddToCartPage;
@@ -26,7 +25,7 @@ public class AmazonAppTestCases extends BrowserFactory{
 		super(driver);
 	}
 	
-	@Test(priority=1)
+	@Test(priority=3)
 	@Description("Verify the Browser Setup")
 	@Epic("Ep001")
 	@Feature("Feature1: Browser")

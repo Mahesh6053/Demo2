@@ -20,7 +20,7 @@ public class BrowserFactory {
 	{
 		if(Browser.equalsIgnoreCase("chrome"))
 		{
-			System.out.println("driver="+driver);
+			
 			WebDriverManager.chromiumdriver().setup();
 			driver = new ChromeDriver();
 			
