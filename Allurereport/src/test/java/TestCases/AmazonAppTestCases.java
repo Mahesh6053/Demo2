@@ -26,7 +26,7 @@ public class AmazonAppTestCases extends BrowserFactory{
 		super(driver);
 	}
 	
-	@Test(priority=0)
+	@Test(priority=1)
 	@Description("Verify the Browser Setup")
 	@Epic("Ep001")
 	@Feature("Feature1: Browser")
